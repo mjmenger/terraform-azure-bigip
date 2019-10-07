@@ -15,7 +15,7 @@ output "mgmt_port" {
 
 # BIG-IP Password
 output "password" {
-  value = ""
+  value = "${random_password.bigippassword.result}"
 }
 # Public Network Interface
 output "public_nic_ids" {
