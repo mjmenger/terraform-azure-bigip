@@ -13,10 +13,6 @@ output "mgmt_port" {
   value = ""
 }
 
-# BIG-IP Password
-output "password" {
-  value = ""
-}
 # Public Network Interface
 output "public_nic_ids" {
   value = ""
